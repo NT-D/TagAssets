@@ -61,4 +61,6 @@ Then upload file again to the "samples-workitems" container. It will kick 1st fu
 2017-05-19T00:37:07.418 Function completed (Success, Id=a75c48e9-4d5b-4ea5-b9c2-d8bb5436f829, Duration=1ms)
 ```
 
-Go to Cosmos DB window and you can see stored data with [Data Explorer] or [Document Explorer].
+Go to Cosmos DB window and you can see stored data with [Document Explorer] like below.
+![DocumentExplorer](./Images/DocumentExplorer.PNG)
+
