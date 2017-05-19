@@ -10,7 +10,9 @@ Some compnaies have huge amount of images. These images may be for advertisement
 # Solution
 ## Architecture
 ![Architecture](./Images/Architecture.png)
-This is core architecture of this project. Users upload files to Blob Storage through web application, desktop application or smartphone app. With Blob Storage trigger, Azure functions detect file uploaded and start to fetch tags with computer vision API. After getting tags Azure Functions will send it as message to Azure Queue sotrage. Second Azure Functions detect it with Queues trigger and save it to Document DB.
+This is core architecture of this project. Users upload files to Blob Storage through web application, desktop application or smartphone app. With Blob Storage trigger, Azure functions detect file uploaded and start to fetch tags with Computer Vision API. After getting tags Azure Functions will send it as message to Azure Queue sotrage. Second Azure Functions detect it with Queues trigger and save it to Document DB.
+
+**Developers need to develop app for uploading and searching files.**
 
 ## Implementation
 ### Prerequisite steps
