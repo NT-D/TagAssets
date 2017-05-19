@@ -1,0 +1,21 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "outqueue",
+      "connection": "AzureWebJobsDashboard"
+    },
+    {
+      "type": "documentDB",
+      "name": "outputDocument",
+      "databaseName": "outDatabase",
+      "collectionName": "MyCollection",
+      "createIfNotExists": false,
+      "connection": "logsample_DOCUMENTDB",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
