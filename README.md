@@ -44,7 +44,123 @@ Then upload file to [samples-workitems] container. It will kick this function an
 
 You can also see the message like below in the [outqueue] with Azure Storage Explorer.
 ```json
-{"filename":"untitled.png","categories":[{"name":"building_","score":0.6015625},{"name":"outdoor_house","score":0.3515625}],"tags":[{"name":"grass","confidence":0.9999995},{"name":"outdoor","confidence":0.9999211},{"name":"house","confidence":0.9968539},{"name":"sky","confidence":0.9953216},{"name":"building","confidence":0.9943684},{"name":"tree","confidence":0.988803566},{"name":"lawn","confidence":0.7888847},{"name":"green","confidence":0.712505937},{"name":"residential","confidence":0.708590865},{"name":"grassy","confidence":0.4662468}],"description":{"tags":["grass","outdoor","house","building","yard","lawn","home","front","green","residential","small","field","sitting","grassy","red","farm","brick","large","old","white","sheep","grazing","wooden","standing","garden","parked","hydrant","ball","clock","motorcycle","sign"],"captions":[{"text":"a large lawn in front of a house","confidence":0.967060864}]},"requestId":"2f80b291-cada-4871-901a-95d0a6804830","metadata":{"width":300,"height":200,"format":"Png"},"faces":[],"color":{"dominantColorForeground":"Green","dominantColorBackground":"Green","dominantColors":["Green"],"accentColor":"448215","isBWImg":false},"imageType":{"clipArtType":0,"lineDrawingType":0},"id":null}
+{
+    "filename": "untitled.png",
+    "categories": [
+        {
+            "name": "building_",
+            "score": 0.6015625
+        },
+        {
+            "name": "outdoor_house",
+            "score": 0.3515625
+        }
+    ],
+    "tags": [
+        {
+            "name": "grass",
+            "confidence": 0.9999995
+        },
+        {
+            "name": "outdoor",
+            "confidence": 0.9999211
+        },
+        {
+            "name": "house",
+            "confidence": 0.9968539
+        },
+        {
+            "name": "sky",
+            "confidence": 0.9953216
+        },
+        {
+            "name": "building",
+            "confidence": 0.9943684
+        },
+        {
+            "name": "tree",
+            "confidence": 0.988803566
+        },
+        {
+            "name": "lawn",
+            "confidence": 0.7888847
+        },
+        {
+            "name": "green",
+            "confidence": 0.712505937
+        },
+        {
+            "name": "residential",
+            "confidence": 0.708590865
+        },
+        {
+            "name": "grassy",
+            "confidence": 0.4662468
+        }
+    ],
+    "description": {
+        "tags": [
+            "grass",
+            "outdoor",
+            "house",
+            "building",
+            "yard",
+            "lawn",
+            "home",
+            "front",
+            "green",
+            "residential",
+            "small",
+            "field",
+            "sitting",
+            "grassy",
+            "red",
+            "farm",
+            "brick",
+            "large",
+            "old",
+            "white",
+            "sheep",
+            "grazing",
+            "wooden",
+            "standing",
+            "garden",
+            "parked",
+            "hydrant",
+            "ball",
+            "clock",
+            "motorcycle",
+            "sign"
+        ],
+        "captions": [
+            {
+                "text": "a large lawn in front of a house",
+                "confidence": 0.967060864
+            }
+        ]
+    },
+    "requestId": "2f80b291-cada-4871-901a-95d0a6804830",
+    "metadata": {
+        "width": 300,
+        "height": 200,
+        "format": "Png"
+    },
+    "faces": [],
+    "color": {
+        "dominantColorForeground": "Green",
+        "dominantColorBackground": "Green",
+        "dominantColors": [
+            "Green"
+        ],
+        "accentColor": "448215",
+        "isBWImg": false
+    },
+    "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+    },
+    "id": null
+}
 ```
 
 #### CallComputerVisionAPI
